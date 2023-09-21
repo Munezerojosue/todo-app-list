@@ -1,0 +1,89 @@
+
+.container{
+    display: flex;
+     flex-direction: column; 
+    
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    border-radius: 25px;
+    background-color: rgb(57, 132, 134);
+}
+.text{
+    
+    color: rgb(29, 5, 52);
+    
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 7px;
+    border: none;
+    margin: 15px;
+    color: rgb(29, 5, 52);
+    
+}
+.add:hover{
+    display: flex;
+    color: rgb(181, 214, 243);
+   
+    
+    background-color: rgb(29, 5, 52);
+
+
+}
+.add:active{
+    transform: scale(0.96);
+}
+.placeholder{
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    color: rgb(9, 1, 18);
+}
+.list{
+    display: flex;
+    flex-direction: column;
+
+    
+    color: rgb(160, 199, 233);
+    background-color:  rgb(22, 3, 40);
+    border-radius: 7px;
+    border: none;
+    
+
+    
+    
+}
+.list1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+}
+.delete{
+     display: flex;
+    flex-direction: column;
+    position: relative;
+     left: 50px; 
+    border-radius: 8px;
+    border: none;
+    
+    
+
+}
+.delete:hover{
+    background-color: rgb(57, 132, 134);
+    
+
+}
+ .delete:active{
+    transform: scale(0.96);
+} 
